@@ -69,3 +69,7 @@ Models were loaded using AutoModelForSeq2SeqLM.
 Tokenizers were applied using AutoTokenizer.
 
 Training was conducted using Hugging Face’s Trainer API, optimizing computational efficiency.
+
+## Conclusion
+This project successfully fine-tuned multiple transformer models—BART, GPT-2, T5, and PEGASUS—on the CNN/DailyMail dataset for abstractive summarization. By leveraging Hugging Face’s Trainer API, we efficiently optimized training and evaluation. The results demonstrate that different models exhibit varying performance based on the complexity of the summarization task. Future improvements could involve hyperparameter tuning and testing on additional datasets to enhance summarization accuracy.
+
